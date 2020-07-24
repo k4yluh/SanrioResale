@@ -1,0 +1,188 @@
+.navbar-custom {
+  background-color: white;
+}
+
+.navbar-text {
+  color: #ffc4f6;
+  font-family: 'Great Vibes', cursive;
+  font-size: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textt {
+    background-color: #ffe0fa;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 3px 3px 4px black;
+}
+
+.m-text {
+  font-family: Helvetica, sans-serif;
+  color: black;
+  font-weight: bolder;
+}
+
+.pagination>li>a,
+ .pagination>li>span {
+  border: 2px solid #ffe0fa;;
+}
+.pagination>li.active>a {
+  background: #ffe0fa;;
+  color: #ffe0fa;;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+.tfsnl {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #ffe0fa;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #edc4ff;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #ffe0fa;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #edc4ff;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border:none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 50%;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 10px 10px;
+  background-color: #ffe0fa;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 100%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+.roundt {
+  border-radius: 50%
+}
+
+.container {
+  background-color: #edc4ff;
+  color: #edc4ff;
+}
+
+.shadow-box {
+  background-color: #ffc4f6;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.ctext {
+  background-color: #ffc4f6;
+  opacity: .5;
+  font-family: Helvetica, sans-serif;
+  text-shadow: 3px 3px 4px black ;
+}
+
+.rtext {
+  background-color: #ffc4f6;
+  font-family: Helvetica, sans-serif;
+  color: black;
+}
+
+.sbtn {
+  background: #ffc4f6;
+  border-radius: 50%;
+  color: white;
+  border-color: white;
+}
+
+#colors {
+  background-color: white;
+}
